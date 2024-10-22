@@ -25,11 +25,8 @@ class Veicolo {
         this.carburante = carburante;
 
     }
-
-
-
-
-
+   
+   
     // metodo informazioni
 
     infoVeicolo() {
@@ -40,7 +37,7 @@ class Veicolo {
 
     // metodo calcolo eta
     calcolaEta() {
-        return ``
+        return `{2024-this.anno}`
     }
 }
 
@@ -51,6 +48,8 @@ const fiat = new Veicolo('Fiat', 2019, 'Blu', 5, 'Benzina');
 
 
 console.log(fiat.infoVeicolo);
+console.log(fiat.calcolaEta);
+
 
 
 
