@@ -30,7 +30,7 @@ class Veicolo {
 
 
 
-
+    // metodo informazioni
 
     infoVeicolo() {
         return `${this.marca}, ${this.anno}, ${this.porte}, ${this.carburante}`;
@@ -38,10 +38,9 @@ class Veicolo {
     }
 
 
-
-
-    informazioni() {
-        return `${this.marca}, ${this.anno},${this.colore},${this.porte},${this.carburante};`
+    // metodo calcolo eta
+    calcolaEta() {
+        return ``
     }
 }
 
