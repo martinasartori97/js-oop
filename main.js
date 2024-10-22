@@ -25,8 +25,8 @@ class Veicolo {
         this.carburante = carburante;
 
     }
-   
-   
+
+
     // metodo informazioni
 
     infoVeicolo() {
