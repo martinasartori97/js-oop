@@ -12,6 +12,20 @@ console.log("hello");
 
 
 class veicolo {
-    constructor()
+    constructor(marca, anno, colore, porte, carburante) {
+        this.marca = marca;
+        this.anno = anno;
+        this.colore = colore;
+        this.porte = porte;
+        this.carburante = carburante;
 
+    }
+
+    get infoVeicolo() {
+        return `${this.marca}, ${this.anno}, ${this.porte}, ${this.carburante}`;
+    }
 }
+console.log(veicolo);
+
+
+
