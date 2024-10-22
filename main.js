@@ -11,7 +11,7 @@ console.log("hello");
 */
 
 
-class veicolo {
+class Veicolo {
     constructor(marca, anno, colore, porte, carburante) {
         this.marca = marca;
         this.anno = anno;
@@ -24,8 +24,18 @@ class veicolo {
     get infoVeicolo() {
         return `${this.marca}, ${this.anno}, ${this.porte}, ${this.carburante}`;
     }
+
+
+
 }
-console.log(veicolo);
+console.log(Veicolo);
+
+const fiat = new Veicolo("fiat", 19, "blu");
+
+informazioni(){
+    return `${this.marca}, ${this.anno},${this.colore}`;
+}
+
 
 
 
